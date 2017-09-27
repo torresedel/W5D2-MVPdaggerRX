@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.admin.w5d2_mvpdaggerrx.view.mainactivity.MainActivity">
+
+    <Button
+        android:id="@+id/btnFrom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="From" />
+
+    <Button
+        android:id="@+id/btnJust"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Just" />
+
+    <Button
+        android:id="@+id/btnRepeat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Repeat" />
+
+    <Button
+        android:id="@+id/btnRange"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Range" />
+
+    <Button
+        android:id="@+id/btnTimer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Timer" />
+
+    <Button
+        android:id="@+id/btnFirst"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="First" />
+
+    <Button
+        android:id="@+id/btnSample"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sample" />
+
+    <Button
+        android:id="@+id/btnTake"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Take" />
+
+    <Button
+        android:id="@+id/btnMerge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Merge" />
+
+    <Button
+        android:id="@+id/btnSkipUntil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SkipUntil" />
+
+    <Button
+        android:id="@+id/btnAverage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:text="Average" />
+
+    <Button
+        android:id="@+id/btnMax"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Max" />
+
+    <Button
+        android:id="@+id/btnMin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Min" />
+
+    <Button
+        android:id="@+id/btnCount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Count" />
+
+    <Button
+        android:id="@+id/btnSum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sum" />
+
+</LinearLayout>
